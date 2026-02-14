@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.page{
+    width: 100svw;
+    height: 100svh;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(231, 37, 69);
+    position: relative;
+}
+.container h3{
+    width: 99.7%;
+    height: 250px;
+    background-color: rgb(216, 47, 151);
+    border: 2px solid rgb(31, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .slick-prev{
+    position: absolute;
+    left: -10%;
+}
+.container .slick-next{
+    position: absolute;
+    right: -10%;
+}
+
+.container .slick-dots li button:before{
+    color: rgb(185, 27, 153);
+}
+.container .slick-dots li.slick-active button:before{
+    color: rgb(29, 29, 29);
+}
+.container .slick-dots li{
+    position: relative;
+    top: 100px;
+}
