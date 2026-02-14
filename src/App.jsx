@@ -1,8 +1,9 @@
+import { UseContextAPIHook } from "./hooks/UseContexAPItHook/demo";
 
-import { UseStateHook } from "./hooks/UseStateHook/demo";
+
 function App() {
   return (
-    <UseStateHook />
+    <UseContextAPIHook/>
   );
 }
 
