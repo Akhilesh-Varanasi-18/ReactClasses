@@ -1,9 +1,10 @@
-import { UseContextAPIHook } from "./hooks/UseContexAPItHook/demo";
+import { UseEffectHook } from "./hooks/UseEffectHook/demo";
+
 
 
 function App() {
   return (
-    <UseContextAPIHook/>
+    <UseEffectHook />
   );
 }
 
