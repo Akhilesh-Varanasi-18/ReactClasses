@@ -1,10 +1,17 @@
-import { UseEffectHook } from "./hooks/UseEffectHook/demo";
+
+import { UseRefHook } from "./hooks/UseRefHook";
+import { BarC, LineChart, PieChart, MultiLineChart } from "./components/Echarts/demo";
 
 
 
 function App() {
   return (
-    <UseEffectHook />
+    <div>
+      <BarC />
+      <LineChart />
+      <PieChart />
+      <MultiLineChart />
+    </div>
   );
 }
 
