@@ -1,9 +1,17 @@
-import { UseContextAPIHook } from "./hooks/UseContexAPItHook/index";
+
+import { UseRefHook } from "./hooks/UseRefHook";
+import { BarC, LineChart, PieChart, MultiLineChart } from "./components/Echarts/demo";
+
 
 
 function App() {
   return (
-    <UseContextAPIHook />
+    <div>
+      <BarC />
+      <LineChart />
+      <PieChart />
+      <MultiLineChart />
+    </div>
   );
 }
 
